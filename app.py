@@ -10,7 +10,7 @@ app = FastAPI()
 # Mengizinkan React (Frontend) mengakses API ini
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Di produksi, ganti dengan URL React Anda
+    allow_origins=["sampahinaja.vercel.app"],  # Di produksi, ganti dengan URL React Anda
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
