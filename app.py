@@ -4,6 +4,7 @@ from PIL import Image
 import tensorflow as tf
 import numpy as np
 import io
+import os
 
 app = FastAPI()
 
